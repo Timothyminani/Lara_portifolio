@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TestimonyController;
 use App\Http\Controllers\ContactController;
 
+
+Route::get('/', [TestimonyController::class, 'index'])->name('home');
 Route::get('/Portfolio', [TestimonyController::class, 'index'])->name('portfolio');
 
 
