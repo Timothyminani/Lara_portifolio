@@ -133,7 +133,7 @@
             <input 
               type="text" 
               v-model="form.name"
-              class="w-full mt-1 p-2 border dark:border-gray-300"
+              class="w-full mt-1 p-2 border dark:border-gray-300 dark:text-black"
               required
             >
           </div>
@@ -144,7 +144,7 @@
             <input 
               type="file" 
               @change="handleFileUpload"
-              class="w-full mt-1 p-2 border dark:border-gray-300"
+              class="w-full mt-1 p-2 border dark:border-gray-300 dark:text-black"
             
             >
           </div>
@@ -157,7 +157,7 @@
             <label class="block text-sm font-medium text-gray-700">Message</label>
             <textarea 
               v-model="form.message"
-              class="w-full mt-1 p-2 border dark:border-gray-300"
+              class="w-full mt-1 p-2 border dark:border-gray-300 dark:text-black"
               rows="3"
               required
             ></textarea>
