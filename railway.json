@@ -1,6 +1,0 @@
-{
-  "build": {
-    "builder": "NIXPACKS",
-    "buildCommand": "composer install && php artisan optimize:clear && php artisan config:cache && php artisan storage:link && php artisan migrate --force"
-  }
-}
